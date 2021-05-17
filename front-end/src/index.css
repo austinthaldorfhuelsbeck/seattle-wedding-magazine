@@ -30,6 +30,18 @@ a:link {
   color: #fff;
 }
 
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.submissions { width: 50%; }
+
 html {
   background-image: url("https://images.unsplash.com/photo-1569690479596-492a39e083bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
   height: 100%;
