@@ -15,7 +15,7 @@ h1 { font-size: 2rem; }
 h2 { font-size: 1.5rem; }
 
 .flex-img {
-  width: 50%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,7 +35,7 @@ ul {
   text-align: left;
 }
 
-.submissions {
+.overlay-card {
   background-color: rgba(0, 0, 0, 0.336);
   border-radius: 3rem;
   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.25);
@@ -93,5 +93,5 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .submissions { width: 50%; }
+  .overlay-card { width: 50%; }
 }

@@ -14,8 +14,8 @@ export default function Home() {
         />
       </div>
       <div className="row py-5 py-sm-4">
-        <div className="col-12 text-center mx-auto">
-          <h1 className="text-9 text-white bg-secondary d-inline-block font-weight-700 rounded px-3 py-2 mb-4">
+        <div className="text-center mx-auto">
+          <h1 className="text-white bg-secondary d-inline-block rounded px-3 py- mb-4">
             <strong>Coming Soon!</strong>
           </h1>
           <h2 className="mb-4">Our new website is on its way.</h2>
