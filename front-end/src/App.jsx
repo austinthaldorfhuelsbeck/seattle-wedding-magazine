@@ -5,6 +5,8 @@ import Submissions from "./submissions/Submissions"
 import NotFound from "./components/NotFound"
 import Footer from "./components/Footer"
 
+import "bootstrap/dist/css/bootstrap.min.css";
+
 export default function App() {
   return (
     <div id="main-wrapper">
