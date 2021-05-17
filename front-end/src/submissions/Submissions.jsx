@@ -4,14 +4,19 @@ import SubmissionsForm from "./SubmissionsForm"
 export default function Submissions() {
   return (
     <Fragment>
-      <div className="submissions text-center mx-auto">
-        <h1 className="mt-5">Submissions</h1>
+      <div className="submissions py-2 mb-5 text-center mx-auto">
+        <h1 className="my-3">Submissions</h1>
         <p>
           <em>Deadline for our Summer Issue is 5/31/21.</em>
         </p>
-        <h4 className="my-5">
+        <p>
+          To submit, fill out the form below or email
+          <a href="mailto:seattleweddingmagazine@gmail.com"> seattleweddingmagazine@gmail.com</a>
+          , with the subject line 'submissions'.
+        </p>
+        <h3 className="my-4">
           Acceptable submissions include:
-        </h4>
+        </h3>
         <ul>
           <li>
             Real weddings

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react"
+import React, { useState } from "react"
 import UploadFiles from "./UploadFiles"
 
 export default function SubmissionsForm() {
@@ -48,7 +48,7 @@ export default function SubmissionsForm() {
           />
         </div>
         <UploadFiles />
-        <button type="submit" className="my-3 btn btn-outline-secondary btn-lg">Submit</button>
+        <button type="submit" className="my-3 btn btn-outline-light btn-lg">Submit</button>
       </form>
     </div>
   )
