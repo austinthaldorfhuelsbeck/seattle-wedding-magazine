@@ -8,7 +8,7 @@ export default function Home() {
       </header>
       <section className="fullscreen d-flex flex-column">
         <div className="container py-5 px-4 px-lg-5 my-auto">
-          <div className="row py-5 py-sm-4">
+          <div className="row pb-5 pb-sm-4">
             <img
               className="flex-img"
               alt="Seattle Wedding Magazine"
@@ -51,8 +51,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <footer className="container text-center">
-          <p class="text-muted text-2 mb-2">
+        <footer className="container text-center mx-auto">
+          <p class="text-dark text-2 mb-2">
             Copyright &copy; 2021 Seattle Wedding Magazine. All Rights Reserved.
           </p>
         </footer>
