@@ -11,7 +11,8 @@ export default function Submissions() {
         </p>
         <p>
           To submit, send an email to <a href="mailto:seattleweddingmagazine@gmail.com">
-            seattleweddingmagazine@gmail.com</a>
+            seattleweddingmagazine@gmail.com
+            </a>
           , with the subject line 'submissions'.
         </p>
         <h3 className="my-4">

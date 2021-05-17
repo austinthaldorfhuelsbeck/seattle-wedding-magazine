@@ -6,14 +6,14 @@ export default function Home() {
 
   return (
     <Fragment>
-      <div className="row pb-5 pb-sm-4">
+      <div className="row pb-3 pb-sm-1">
         <img
           className="flex-img"
           alt="Seattle Wedding Magazine"
           src={logoImgURL}
         />
       </div>
-      <div className="row py-5 py-sm-4">
+      <div className="row py-4 py-sm-2">
         <div className="text-center mx-auto">
           <h1 className="text-white bg-secondary d-inline-block rounded px-3 py- mb-4">
             <strong>Coming Soon!</strong>
