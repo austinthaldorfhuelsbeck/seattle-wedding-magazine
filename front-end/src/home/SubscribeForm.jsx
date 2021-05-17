@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from "react"
 import emailjs from "emailjs-com"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
 import { init } from "emailjs-com"
 init("user_CvpPf1sJ7rZo6giCrFhIr")
 
@@ -58,6 +60,9 @@ export default function SubscribeForm() {
               type="submit"
             >
               <span className="d-none d-sm-block">Notify Me</span>
+              <span className="d-block d-sm-none">
+                <FontAwesomeIcon icon={faArrowRight} />
+              </span>
             </button>
           </div>
         </div>
