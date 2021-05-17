@@ -25,7 +25,6 @@ export default function Home() {
           <SubscribeForm />
         </div>
       </div>
-      <
     </Fragment>
   )
 }
