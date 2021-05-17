@@ -9,7 +9,8 @@ export default function NavBar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav menu-right ml-auto">
-            <Link to="/contact" className="nav-link"><h3>Submissions</h3></Link>
+            <Link to="/" className="mx-2 nav-link"><h3>Home</h3></Link>
+            <Link to="/submissions" className="mx-2 nav-link"><h3>Submissions</h3></Link>
           </div>
         </div>
       </div>
