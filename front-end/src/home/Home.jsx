@@ -1,7 +1,5 @@
 import React, { Fragment } from 'react'
 import SubscribeForm from "./SubscribeForm"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   const logoImgURL = "https://storage.googleapis.com/seattle-wedding-magazine/seattle-wedding-magazine-white%20logo.png"
@@ -17,21 +15,14 @@ export default function Home() {
       </div>
       <div className="row py-4 py-sm-2">
         <div className="text-center mx-auto">
-          <h1 className="text-white bg-secondary d-inline-block rounded px-3 py- mb-4">
+          <h1 className="text-white bg-secondary d-inline-block rounded px-3">
             <strong>Coming Soon!</strong>
           </h1>
-          <h2 className="mb-4">Our new website is on its way.</h2>
+          <h2 className="my-4">Our new website is on its way.</h2>
         </div>
         <div className="col-md-8 col-lg-6 col-xl-5 mx-auto text-center">
           <p className="mb-3">Get notified when we launch.</p>
           <SubscribeForm />
-          <a
-            href="https://www.instagram.com/seattleweddingmagazine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
-          </a>
         </div>
       </div>
     </Fragment>

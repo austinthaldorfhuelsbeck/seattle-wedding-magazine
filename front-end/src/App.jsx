@@ -14,7 +14,7 @@ export default function App() {
       <div className="main-wrapper">
         <NavBar />
         <section className="fullscreen d-flex flex-column">
-          <div className="container py-3 px-4 px-lg-5 my-auto">
+          <div className="container px-4 px-lg-5 my-auto">
             <Switch>
               <Route exact path="/">
                 <Home />
