@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import SubscribeForm from "./SubscribeForm"
 
 export default function Home() {
-  const logoImgURL = "https://storage.googleapis.com/seattle-wedding-magazine/seattle-wedding-magazine-white%20logo.png"
+  const logoImgURL = "https://storage.googleapis.com/seattle-wedding-magazine/seattle-wedding-magazine-white%20logo%20short.png"
 
   return (
     <Fragment>
